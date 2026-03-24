@@ -9,7 +9,7 @@ asg_client = boto3.client('autoscaling')
 cloudwatch = boto3.client('cloudwatch')
 
 TABLE_NAME = 'ScalingLookupTable'
-ASG_NAME = 'my-web-app-asg'
+ASG_NAME = ''
 MAX_INS_NUM = 100 # Maximum allowed instances in cluster
 
 # QoS & Queuing Theory Parameters
